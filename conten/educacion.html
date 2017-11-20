@@ -6,9 +6,75 @@
     <title>EDUCACION</title>
   </head>
   <body>
-    <svg width="400px" height="400px" viewbox="00 00 400 400">
-      <image width="400px" height="400px" xlink:href="image/logo.svg"></image>
-    </svg>
-    <a href="../index.html">Volver</a>
+   <svg width="400px" height="400px" viewbox="00 00 400 400">
+    <image width="400px" height="400px" xlink:href="image/logo.svg"></image>
+    <h1>CURRICULIM VITAE</h1>
+     <h2>Anderson Lozada Carvajal</h2>
+     <ul>
+       <li><a href="../index.html">Inicio</a></li>
+       <li><a href="educacion.html">Educacion</a></li>
+       <li><a href="experiencia.html">Experiencia</a></li>
+     </ul>
+   </svg>
+   <h2>Educación</h2>
+   <table border="1" cellpadding="10" cellspacing="0">
+     <thead>
+       <tr>
+         <th>Año</th>
+         <th>Institucion</th>
+         <th>Lugar</th>
+         <th>¿Culminó?</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>2006</td>
+         <td>Instituto Educativo Braulio Gonzales</td>
+         <td>Yopal-Cas</td>
+         <td>Bachiller</td>
+       </tr>
+       <tr>
+         <td>2013</td>
+         <td>Universidad Militar Nueva Granada</td>
+         <td>Bogota Dc</td>
+         <td>Aplazado</td>
+       </tr>
+     </tbody>
+   </table>
+    <form autocomplete="off" name="Formulario">
+      <fieldset>
+       <h3><legend>Agregar Estudios</legend></h3>
+        <p>Año
+          <select>
+           <option>2017</option>
+           <option>2016</option>
+           <option>2015</option>
+           <option>2014</option>
+           <option>2013</option>
+           <option>2012</option>
+           <option>2011</option>
+           <option>2010</option>
+          </select>
+         </p>
+        <label for="Institucion">Institucion:</label>
+        <input type="text" name="name" id="Institucion" value="" required/>
+        <p>Lugar:
+         <textarea name="area de texto" rows="5" cols="40"></textarea>
+        </p>
+        <p>¿Culminó?:
+         <input type="radio" required name="title" id="r1" value="Sr" ><label for="r1">Si</label>
+         <input type="radio" required name="title" id="r2" value="Sra"><label for="r2">No</label>
+        </p>
+        <input type="submit" name="submit" value="Enviar">
+      </fieldset>
+    </form>
   </body>
+  <footer>
+   <p>Derechos Reservados</p>
+   <ul>
+     <li><strong>Email:</strong><a href="mailto:bakstersito@gmail.com?subject=feedback">bakstersito@gmail.com</a></li>
+     <li><strong>Telefono:</strong>310 60 90 xxx</li>
+     <li><strong>Direccion:</strong>Transversal 39a # 48a sur - xx</li>
+   </ul>
+  </footer>
 </html>
